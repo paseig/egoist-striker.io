@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #000012;
+}
+
+.yoichi {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 640px;
+    height: 360px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/isagi.png);
+}
+
+.found_piece {
+    background-image: url(../img/found_piece.gif);
+}
+
+.piece {
+    margin: 130px 250px 0;
+    width: 122px;
+    height: 118px;
+}
