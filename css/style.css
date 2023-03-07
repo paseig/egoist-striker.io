@@ -40,7 +40,13 @@ body {
 }
 
 .piece {
-    margin: 130px 250px 0;
-    width: 122px;
-    height: 118px;
+    /* margin: 130px 250px 0;
+    width: 140px;
+    height: 227px;
+    border-color: red;
+    border-width: 2px;
+    border-style: solid; */
+    margin: 150px;
+    width: 144px;
+    height: 151px;
 }
