@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/evogria');
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -20,6 +22,18 @@ body {
     background-position: center;
     background-image: url(../img/isagi.png);
 }
+
+/* .best_striker {
+    font-family: 'Evogria', sans-serif;
+    font-size: 1.8em;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-shadow: 2px 2px 5px #000012;
+    text-align: center;
+} */
 
 .found_piece {
     background-image: url(../img/found_piece.gif);

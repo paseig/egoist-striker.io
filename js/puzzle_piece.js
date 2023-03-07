@@ -1,3 +1,5 @@
+alert("Hacé clic sobre la pieza de rompecabezas.")
+
 let strikerMode = "bench";
 
 let monsterSound = document.querySelector("#egoist_music");
@@ -13,6 +15,7 @@ function controlBestStriker() {
     if (strikerMode == "bench") {
         strikerMode = "playing";
         crowd()
+        // yoichi.classList.remove("best_striker");
         yoichi.classList.add("found_piece");
     } else { 
         strikerMode = "bench";
